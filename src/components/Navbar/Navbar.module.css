@@ -1,0 +1,30 @@
+.nav {
+  grid-area: n;
+  background-color: burlywood;
+  padding: 20px;
+  font-size: 30px;
+}
+.item a {
+  color: white;
+  text-decoration: none;
+}
+
+.item a.activeLink {
+  color: gold;
+}
+.bar {
+  padding-top: 150px;
+}
+.friend {
+  display: grid;
+  /* font-size: 10px; */
+  /* width: 1200px;
+  margin: 0 auto;
+  grid-template-areas:
+    "h h"
+    "n c"; */
+
+  grid-template-rows: 1fr;
+  /* grid-template-columns: 2fr 10fr; */
+  /* grid-gap: 10px; */
+}

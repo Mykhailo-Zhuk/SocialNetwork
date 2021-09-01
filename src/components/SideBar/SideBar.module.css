@@ -1,0 +1,9 @@
+.item {
+    display: grid;
+    font-size: 13px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.navBlock {
+    color: white;
+}
